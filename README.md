@@ -10,12 +10,13 @@ The code is based on the PyTorch [implementation](https://github.com/junyanz/pyt
 If you use this code for your research, please cite:
 
 ```
-@InProceedings{Kniaz2018,
+@InProceedings{Kniaz2020,
 author="Kniaz, Vladimir A. and
-Knyaz, Vladimir V. and Fabio Remondino,
-title={Image-to-Voxel Model Translation with Conditional Adversarial Networks},
-booktitle={{Computer Vision -- ECCV 2018 Workshops",
-year="2018}},
+Knyaz, Vladimir V. and Mizginov, Vladimir and
+Kozyrev, Mark and Moshkantsev, Petr
+title={StructureFromGAN: Single Image 3D Model Reconstruction and Photorealistic Texturing},
+booktitle={{Computer Vision -- ECCV 2020 Workshops",
+year="2020}},
 publisher={Springer International Publishing},
 }
 ```
