@@ -4,8 +4,8 @@ This is the PyTorch implementation of the color-to-voxel model translation prese
 
 The code is based on the PyTorch [implementation](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) of the pix2pix and CycleGAN.
 
-#### Z-GAN: [[Project]](http://www.zefirus.org/StructureFromGAN) [[Paper]](http://cmp.felk.cvut.cz/sixd/workshop_2020/)
-<img src="imgs/VoxelCity.jpg" width="900"/>
+#### StructureFromGAN: [[Project]](http://www.zefirus.org/StructureFromGAN) [[Paper]](http://cmp.felk.cvut.cz/sixd/workshop_2020/)
+<img src="images/200823_SfG_title.jpg" width="900"/>
 
 If you use this code for your research, please cite:
 
@@ -41,47 +41,47 @@ pip install dominate
 ```
 - Clone this repo:
 ```bash
-git clone https://github.com/vlkniaz/Z_GAN
+git clone https://github.com/vlkniaz/StructureFromGAN
 ```
 
-### Z-GAN train/test
+### StructureFromGAN train/test
 - Go to the repo directory
 ```
-cd Z_GAN
+cd SFG
 ```
 
-- Download a Z-GAN dataset:
+- Download a StructureFromGAN dataset:
 ```bash
 bash ./datasets/download_zgan_dataset.sh mini
 ```
 - Train a model:
 ```bash
-bash scripts/train_zgan.sh
+bash scripts/train_sfg.sh
 ```
 - To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097. To see more intermediate results, check out `./checkpoints/thermal_gan_rel/web/index.html`
 - Test the model:
 ```bash
-bash scripts/test_zgan.sh
+bash scripts/test_sfg.sh
 ```
-The test results will be saved to a html file here: `./results/z_gan/test_latest/index.html`.
+The test results will be saved to a html file here: `./results/sfg/test_latest/index.html`.
 
-### Apply a pre-trained model (Z-GAN)
+### Apply a pre-trained model (SFG)
 
-Download a pre-trained model with `./pretrained_models/download_zgan_model.sh`.
+Download a pre-trained model with `./pretrained_models/download_sfg_model.sh`.
 
-- For example, if you would like to download Z-GAN model on the mini dataset,
+- For example, if you would like to download SFG model on the mini dataset,
 ```bash
-bash pretrained_models/download_zgan_model.sh Z_GAN
+bash pretrained_models/download_sfg_model.sh SFG
 ```
 
 - Download the mini datasets
 ```bash
-bash ./datasets/download_zgan_dataset.sh mini
+bash ./datasets/download_sfg_dataset.sh mini
 ```
 - Then generate the results using
 ```bash
-bash scripts/test_zgan_pretrained.sh
+bash scripts/test_sfg_pretrained.sh
 ```
 
-- The test results will be saved to a html file here: `./results/Z_GAN_pretrained/test_latest/index.html`.
+- The test results will be saved to a html file here: `./results/SFG_pretrained/test_latest/index.html`.
 
