@@ -12,8 +12,8 @@ If you use this code for your research, please cite:
 ```
 @InProceedings{Kniaz2020,
 author="Kniaz, Vladimir A. and
-Knyaz, Vladimir V. and Mizginov, Vladimir and
-Kozyrev, Mark and Moshkantsev, Petr
+Knyaz, Vladimir V. and Vladimir Mizginov and
+Mark Kozyrev and Petr Moshkantsev
 title={StructureFromGAN: Single Image 3D Model Reconstruction and Photorealistic Texturing},
 booktitle={{Computer Vision -- ECCV 2020 Workshops",
 year="2020}},
