@@ -53,7 +53,7 @@ cd SFG
 
 - Download a StructureFromGAN dataset:
 ```bash
-bash ./datasets/download_zgan_dataset.sh mini
+bash ./datasets/download_sfg_dataset.sh mini
 ```
 - Train a model:
 ```bash
