@@ -1,4 +1,5 @@
 # StructureFromGAN
+# NOTE: We are preparing the final code for release on GitHub. It will be published by September 20.
 ```Code for the paper: StructureFromGAN: Single Image 3D Model Reconstruction and Photorealistic Texturing```
 This is the PyTorch implementation of the color-to-voxel model translation presented on ECCV 2018.
 
